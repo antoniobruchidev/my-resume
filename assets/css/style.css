@@ -18,6 +18,10 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -74,7 +78,6 @@ h4 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
-
 
 
 /*---------------------------------Heading*/
@@ -274,13 +277,14 @@ footer {
     position: relative;
     height: 25px;
     margin-bottom: 4px;
+    line-height: normal;
 }
 
 .progress-type {
     position: absolute;
     left: 0px;
     font-weight: 400;
-    padding: 3px 30px 2px 10px;
+    padding: 7px 30px 2px 10px;
     color: #fafafa;
     background-color: rgba(25, 25, 25, 0.2);
 }
@@ -336,3 +340,33 @@ footer {
 .history-items {
     margin-bottom: 30px;
 }
+
+/*---------------------------------Contact Form*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.center-form {
+    padding: 10px;
+    margin-left: 25px;
+    max-width: 90%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+#modal-secondary-heading {
+    padding-top: 10px;
+}
+
+
+/*---------------------------------Media Queries*/
